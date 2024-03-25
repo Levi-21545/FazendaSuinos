@@ -1,0 +1,10 @@
+D:\Projeto Integrador\FazendaSuinos\bin\Debug\FazendaSuinos.exe.config
+D:\Projeto Integrador\FazendaSuinos\bin\Debug\FazendaSuinos.exe
+D:\Projeto Integrador\FazendaSuinos\bin\Debug\FazendaSuinos.pdb
+D:\Projeto Integrador\FazendaSuinos\obj\Debug\FazendaSuinos.csproj.AssemblyReference.cache
+D:\Projeto Integrador\FazendaSuinos\obj\Debug\FazendaSuinos.Form1.resources
+D:\Projeto Integrador\FazendaSuinos\obj\Debug\FazendaSuinos.Properties.Resources.resources
+D:\Projeto Integrador\FazendaSuinos\obj\Debug\FazendaSuinos.csproj.GenerateResource.cache
+D:\Projeto Integrador\FazendaSuinos\obj\Debug\FazendaSuinos.csproj.CoreCompileInputs.cache
+D:\Projeto Integrador\FazendaSuinos\obj\Debug\FazendaSuinos.exe
+D:\Projeto Integrador\FazendaSuinos\obj\Debug\FazendaSuinos.pdb
