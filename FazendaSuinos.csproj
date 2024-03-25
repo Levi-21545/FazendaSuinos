@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{55613B30-13FD-41F1-BB48-F412E4B8BD3F}</ProjectGuid>
+    <ProjectGuid>{2977F4C5-1EB0-4E2C-B794-08BC90AA1CBE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>FazendaSuinos</RootNamespace>
     <AssemblyName>FazendaSuinos</AssemblyName>
@@ -46,6 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CadastroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroForm.Designer.cs">
+      <DependentUpon>CadastroForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fazenda_suinosDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fazenda_suinosDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +71,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CadastroForm.resx">
+      <DependentUpon>CadastroForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,7 +88,19 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="fazenda_suinosDataSet.xsc">
+      <DependentUpon>fazenda_suinosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="fazenda_suinosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fazenda_suinosDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fazenda_suinosDataSet.xss">
+      <DependentUpon>fazenda_suinosDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,6 +113,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\lupa_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\lupa_menor.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
