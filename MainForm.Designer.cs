@@ -30,9 +30,17 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.pessoaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+=======
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             this.empresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pessoaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.funcionarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tecnicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gerenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.administradorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.propriedadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pocilgaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,7 +58,10 @@
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manualDoUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.produtorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+=======
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,6 +89,7 @@
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
             // 
+<<<<<<< HEAD
             // pessoaToolStripMenuItem
             // 
             this.pessoaToolStripMenuItem.Name = "pessoaToolStripMenuItem";
@@ -85,6 +97,8 @@
             this.pessoaToolStripMenuItem.Text = "Pessoa";
             this.pessoaToolStripMenuItem.Click += new System.EventHandler(this.pessoaToolStripMenuItem_Click);
             // 
+=======
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             // empresaToolStripMenuItem
             // 
             this.empresaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -94,11 +108,55 @@
             this.empresaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.empresaToolStripMenuItem.Text = "Empresa";
             // 
+<<<<<<< HEAD
+=======
+            // produtorToolStripMenuItem
+            // 
+            this.produtorToolStripMenuItem.Name = "produtorToolStripMenuItem";
+            this.produtorToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.produtorToolStripMenuItem.Text = "Produtor";
+            // 
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             // fornecedorToolStripMenuItem
             // 
             this.fornecedorToolStripMenuItem.Name = "fornecedorToolStripMenuItem";
-            this.fornecedorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.fornecedorToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
             this.fornecedorToolStripMenuItem.Text = "Fornecedor";
+            // 
+            // pessoaToolStripMenuItem
+            // 
+            this.pessoaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.funcionarioToolStripMenuItem,
+            this.tecnicoToolStripMenuItem,
+            this.gerenteToolStripMenuItem,
+            this.administradorToolStripMenuItem});
+            this.pessoaToolStripMenuItem.Name = "pessoaToolStripMenuItem";
+            this.pessoaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.pessoaToolStripMenuItem.Text = "Pessoa";
+            // 
+            // funcionarioToolStripMenuItem
+            // 
+            this.funcionarioToolStripMenuItem.Name = "funcionarioToolStripMenuItem";
+            this.funcionarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.funcionarioToolStripMenuItem.Text = "Funcionário";
+            // 
+            // tecnicoToolStripMenuItem
+            // 
+            this.tecnicoToolStripMenuItem.Name = "tecnicoToolStripMenuItem";
+            this.tecnicoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tecnicoToolStripMenuItem.Text = "Técnico";
+            // 
+            // gerenteToolStripMenuItem
+            // 
+            this.gerenteToolStripMenuItem.Name = "gerenteToolStripMenuItem";
+            this.gerenteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.gerenteToolStripMenuItem.Text = "Gerente";
+            // 
+            // administradorToolStripMenuItem
+            // 
+            this.administradorToolStripMenuItem.Name = "administradorToolStripMenuItem";
+            this.administradorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.administradorToolStripMenuItem.Text = "Administrador";
             // 
             // propriedadeToolStripMenuItem
             // 
@@ -136,7 +194,11 @@
             // vacinacaoToolStripMenuItem
             // 
             this.vacinacaoToolStripMenuItem.Name = "vacinacaoToolStripMenuItem";
+<<<<<<< HEAD
             this.vacinacaoToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+=======
+            this.vacinacaoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             this.vacinacaoToolStripMenuItem.Text = "Vacinação";
             // 
             // alimentacaoToolStripMenuItem
@@ -148,13 +210,21 @@
             // mortalidadeToolStripMenuItem
             // 
             this.mortalidadeToolStripMenuItem.Name = "mortalidadeToolStripMenuItem";
+<<<<<<< HEAD
             this.mortalidadeToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+=======
+            this.mortalidadeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             this.mortalidadeToolStripMenuItem.Text = "Mortalidade";
             // 
             // pesagemToolStripMenuItem
             // 
             this.pesagemToolStripMenuItem.Name = "pesagemToolStripMenuItem";
+<<<<<<< HEAD
             this.pesagemToolStripMenuItem.Size = new System.Drawing.Size(176, 26);
+=======
+            this.pesagemToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             this.pesagemToolStripMenuItem.Text = "Pesagem";
             // 
             // relatoriosToolStripMenuItem
@@ -173,7 +243,11 @@
             this.relatorio2ToolStripMenuItem,
             this.relatorio3ToolStripMenuItem});
             this.padrãoToolStripMenuItem.Name = "padrãoToolStripMenuItem";
+<<<<<<< HEAD
             this.padrãoToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
+=======
+            this.padrãoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             this.padrãoToolStripMenuItem.Text = "Padrão";
             // 
             // relatorio1ToolStripMenuItem
@@ -197,7 +271,11 @@
             // personalizadoToolStripMenuItem
             // 
             this.personalizadoToolStripMenuItem.Name = "personalizadoToolStripMenuItem";
+<<<<<<< HEAD
             this.personalizadoToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
+=======
+            this.personalizadoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             this.personalizadoToolStripMenuItem.Text = "Personalizado...";
             // 
             // ajudaToolStripMenuItem
@@ -212,12 +290,17 @@
             // manualDoUsuarioToolStripMenuItem
             // 
             this.manualDoUsuarioToolStripMenuItem.Name = "manualDoUsuarioToolStripMenuItem";
+<<<<<<< HEAD
             this.manualDoUsuarioToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
+=======
+            this.manualDoUsuarioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             this.manualDoUsuarioToolStripMenuItem.Text = "Manual do Usuário";
             // 
             // sobreToolStripMenuItem
             // 
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+<<<<<<< HEAD
             this.sobreToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
             this.sobreToolStripMenuItem.Text = "Sobre...";
             // 
@@ -226,6 +309,10 @@
             this.produtorToolStripMenuItem.Name = "produtorToolStripMenuItem";
             this.produtorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.produtorToolStripMenuItem.Text = "Produtor";
+=======
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sobreToolStripMenuItem.Text = "Sobre...";
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
             // 
             // MainForm
             // 
@@ -251,6 +338,13 @@
         private System.Windows.Forms.ToolStripMenuItem empresaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fornecedorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pessoaToolStripMenuItem;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.ToolStripMenuItem funcionarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tecnicoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gerenteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem administradorToolStripMenuItem;
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
         private System.Windows.Forms.ToolStripMenuItem propriedadeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pocilgaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem loteToolStripMenuItem;
@@ -268,7 +362,10 @@
         private System.Windows.Forms.ToolStripMenuItem personalizadoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem manualDoUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
+<<<<<<< HEAD
         private System.Windows.Forms.ToolStripMenuItem produtorToolStripMenuItem;
+=======
+>>>>>>> fc08ce2fcb16e94e3fea8650bb99eda58c5a8ad2
     }
 }
 
