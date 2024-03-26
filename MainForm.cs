@@ -16,5 +16,14 @@ namespace FazendaSuinos
         {
             InitializeComponent();
         }
+
+        private void pessoaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Instanciar o novo formulário
+            CadastroForm cadastroFormulario = new CadastroForm();
+
+            // Exibir o novo formulário
+            cadastroFormulario.Show();
+        }
     }
 }
