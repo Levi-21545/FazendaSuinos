@@ -32,7 +32,6 @@
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pessoaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.empresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fornecedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.propriedadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pocilgaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,7 +49,6 @@
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manualDoUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.produtorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,18 +85,10 @@
             // 
             // empresaToolStripMenuItem
             // 
-            this.empresaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.produtorToolStripMenuItem,
-            this.fornecedorToolStripMenuItem});
             this.empresaToolStripMenuItem.Name = "empresaToolStripMenuItem";
             this.empresaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.empresaToolStripMenuItem.Text = "Empresa";
-            // 
-            // fornecedorToolStripMenuItem
-            // 
-            this.fornecedorToolStripMenuItem.Name = "fornecedorToolStripMenuItem";
-            this.fornecedorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.fornecedorToolStripMenuItem.Text = "Fornecedor";
+            this.empresaToolStripMenuItem.Click += new System.EventHandler(this.empresaToolStripMenuItem_Click);
             // 
             // propriedadeToolStripMenuItem
             // 
@@ -221,12 +211,6 @@
             this.sobreToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
             this.sobreToolStripMenuItem.Text = "Sobre...";
             // 
-            // produtorToolStripMenuItem
-            // 
-            this.produtorToolStripMenuItem.Name = "produtorToolStripMenuItem";
-            this.produtorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.produtorToolStripMenuItem.Text = "Produtor";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -249,7 +233,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cadastrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem empresaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fornecedorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pessoaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem propriedadeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pocilgaToolStripMenuItem;
@@ -268,7 +251,6 @@
         private System.Windows.Forms.ToolStripMenuItem personalizadoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem manualDoUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem produtorToolStripMenuItem;
     }
 }
 

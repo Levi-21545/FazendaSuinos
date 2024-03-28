@@ -1,6 +1,6 @@
 ﻿namespace FazendaSuinos
 {
-    partial class CadastroForm
+    partial class CadastroPessoaForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             this.label_codigoPessoa = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.campo_codPessoa = new System.Windows.Forms.TextBox();
+            this.campo_nomePessoa = new System.Windows.Forms.TextBox();
             this.label_nome = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.campo_cpfPessoa = new System.Windows.Forms.TextBox();
             this.label_cpf = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.campo_telefonePessoa = new System.Windows.Forms.TextBox();
             this.label_telefone = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.campo_codEmpresa = new System.Windows.Forms.TextBox();
             this.label_codEmpresa = new System.Windows.Forms.Label();
             this.label_tipovinculo = new System.Windows.Forms.Label();
             this.combo_tipovinculo = new System.Windows.Forms.ComboBox();
@@ -47,19 +47,19 @@
             this.button_limpar = new System.Windows.Forms.Button();
             this.button_consultar = new System.Windows.Forms.Button();
             this.dataGridView_cadastroPessoa = new System.Windows.Forms.DataGridView();
-            this.fazenda_suinosDataSet = new FazendaSuinos.fazenda_suinosDataSet();
-            this.fazendasuinosDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pessoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pessoaTableAdapter = new FazendaSuinos.fazenda_suinosDataSetTableAdapters.PessoaTableAdapter();
             this.codDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telefoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cpfDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.codempresaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pessoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.fazenda_suinosDataSet = new FazendaSuinos.fazenda_suinosDataSet();
+            this.fazendasuinosDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pessoaTableAdapter = new FazendaSuinos.fazenda_suinosDataSetTableAdapters.PessoaTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_cadastroPessoa)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fazenda_suinosDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fazendasuinosDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label_codigoPessoa
@@ -71,19 +71,19 @@
             this.label_codigoPessoa.TabIndex = 0;
             this.label_codigoPessoa.Text = "Código";
             // 
-            // textBox1
+            // campo_codPessoa
             // 
-            this.textBox1.Location = new System.Drawing.Point(49, 62);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 1;
+            this.campo_codPessoa.Location = new System.Drawing.Point(49, 62);
+            this.campo_codPessoa.Name = "campo_codPessoa";
+            this.campo_codPessoa.Size = new System.Drawing.Size(100, 22);
+            this.campo_codPessoa.TabIndex = 1;
             // 
-            // textBox2
+            // campo_nomePessoa
             // 
-            this.textBox2.Location = new System.Drawing.Point(215, 62);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(502, 22);
-            this.textBox2.TabIndex = 3;
+            this.campo_nomePessoa.Location = new System.Drawing.Point(215, 62);
+            this.campo_nomePessoa.Name = "campo_nomePessoa";
+            this.campo_nomePessoa.Size = new System.Drawing.Size(502, 22);
+            this.campo_nomePessoa.TabIndex = 3;
             // 
             // label_nome
             // 
@@ -94,12 +94,12 @@
             this.label_nome.TabIndex = 2;
             this.label_nome.Text = "Nome";
             // 
-            // textBox3
+            // campo_cpfPessoa
             // 
-            this.textBox3.Location = new System.Drawing.Point(397, 123);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(133, 22);
-            this.textBox3.TabIndex = 5;
+            this.campo_cpfPessoa.Location = new System.Drawing.Point(397, 123);
+            this.campo_cpfPessoa.Name = "campo_cpfPessoa";
+            this.campo_cpfPessoa.Size = new System.Drawing.Size(133, 22);
+            this.campo_cpfPessoa.TabIndex = 5;
             // 
             // label_cpf
             // 
@@ -110,12 +110,12 @@
             this.label_cpf.TabIndex = 4;
             this.label_cpf.Text = "CPF";
             // 
-            // textBox4
+            // campo_telefonePessoa
             // 
-            this.textBox4.Location = new System.Drawing.Point(584, 123);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(133, 22);
-            this.textBox4.TabIndex = 7;
+            this.campo_telefonePessoa.Location = new System.Drawing.Point(584, 123);
+            this.campo_telefonePessoa.Name = "campo_telefonePessoa";
+            this.campo_telefonePessoa.Size = new System.Drawing.Size(133, 22);
+            this.campo_telefonePessoa.TabIndex = 7;
             // 
             // label_telefone
             // 
@@ -126,12 +126,12 @@
             this.label_telefone.TabIndex = 6;
             this.label_telefone.Text = "Telefone";
             // 
-            // textBox5
+            // campo_codEmpresa
             // 
-            this.textBox5.Location = new System.Drawing.Point(49, 123);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 9;
+            this.campo_codEmpresa.Location = new System.Drawing.Point(49, 123);
+            this.campo_codEmpresa.Name = "campo_codEmpresa";
+            this.campo_codEmpresa.Size = new System.Drawing.Size(100, 22);
+            this.campo_codEmpresa.TabIndex = 9;
             // 
             // label_codEmpresa
             // 
@@ -173,6 +173,7 @@
             this.button_adicionar.TabIndex = 12;
             this.button_adicionar.Text = "Adicionar";
             this.button_adicionar.UseVisualStyleBackColor = true;
+            this.button_adicionar.Click += new System.EventHandler(this.button_adicionar_Click);
             // 
             // button_excluir
             // 
@@ -228,25 +229,6 @@
             this.dataGridView_cadastroPessoa.Size = new System.Drawing.Size(668, 315);
             this.dataGridView_cadastroPessoa.TabIndex = 17;
             // 
-            // fazenda_suinosDataSet
-            // 
-            this.fazenda_suinosDataSet.DataSetName = "fazenda_suinosDataSet";
-            this.fazenda_suinosDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // fazendasuinosDataSetBindingSource
-            // 
-            this.fazendasuinosDataSetBindingSource.DataSource = this.fazenda_suinosDataSet;
-            this.fazendasuinosDataSetBindingSource.Position = 0;
-            // 
-            // pessoaBindingSource
-            // 
-            this.pessoaBindingSource.DataMember = "Pessoa";
-            this.pessoaBindingSource.DataSource = this.fazenda_suinosDataSet;
-            // 
-            // pessoaTableAdapter
-            // 
-            this.pessoaTableAdapter.ClearBeforeFill = true;
-            // 
             // codDataGridViewTextBoxColumn
             // 
             this.codDataGridViewTextBoxColumn.DataPropertyName = "cod";
@@ -287,7 +269,26 @@
             this.codempresaDataGridViewTextBoxColumn.Name = "codempresaDataGridViewTextBoxColumn";
             this.codempresaDataGridViewTextBoxColumn.Width = 125;
             // 
-            // CadastroForm
+            // pessoaBindingSource
+            // 
+            this.pessoaBindingSource.DataMember = "Pessoa";
+            this.pessoaBindingSource.DataSource = this.fazenda_suinosDataSet;
+            // 
+            // fazenda_suinosDataSet
+            // 
+            this.fazenda_suinosDataSet.DataSetName = "fazenda_suinosDataSet";
+            this.fazenda_suinosDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // fazendasuinosDataSetBindingSource
+            // 
+            this.fazendasuinosDataSetBindingSource.DataSource = this.fazenda_suinosDataSet;
+            this.fazendasuinosDataSetBindingSource.Position = 0;
+            // 
+            // pessoaTableAdapter
+            // 
+            this.pessoaTableAdapter.ClearBeforeFill = true;
+            // 
+            // CadastroPessoaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -300,23 +301,23 @@
             this.Controls.Add(this.button_adicionar);
             this.Controls.Add(this.combo_tipovinculo);
             this.Controls.Add(this.label_tipovinculo);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.campo_codEmpresa);
             this.Controls.Add(this.label_codEmpresa);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.campo_telefonePessoa);
             this.Controls.Add(this.label_telefone);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.campo_cpfPessoa);
             this.Controls.Add(this.label_cpf);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.campo_nomePessoa);
             this.Controls.Add(this.label_nome);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.campo_codPessoa);
             this.Controls.Add(this.label_codigoPessoa);
-            this.Name = "CadastroForm";
-            this.Text = "Cadastro";
+            this.Name = "CadastroPessoaForm";
+            this.Text = "Cadastro de Pessoas";
             this.Load += new System.EventHandler(this.CadastroForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_cadastroPessoa)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fazenda_suinosDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fazendasuinosDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pessoaBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,14 +326,14 @@
         #endregion
 
         private System.Windows.Forms.Label label_codigoPessoa;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox campo_codPessoa;
+        private System.Windows.Forms.TextBox campo_nomePessoa;
         private System.Windows.Forms.Label label_nome;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox campo_cpfPessoa;
         private System.Windows.Forms.Label label_cpf;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox campo_telefonePessoa;
         private System.Windows.Forms.Label label_telefone;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox campo_codEmpresa;
         private System.Windows.Forms.Label label_codEmpresa;
         private System.Windows.Forms.Label label_tipovinculo;
         private System.Windows.Forms.ComboBox combo_tipovinculo;

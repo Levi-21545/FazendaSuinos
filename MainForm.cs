@@ -19,11 +19,43 @@ namespace FazendaSuinos
 
         private void pessoaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // Instanciar o novo formulário
-            CadastroForm cadastroFormulario = new CadastroForm();
+            //Verificar se o formulário ja está aberto
+            CadastroPessoaForm formularioExistente = Application.OpenForms.OfType<CadastroPessoaForm>().FirstOrDefault();
 
-            // Exibir o novo formulário
-            cadastroFormulario.Show();
+            //Se a variável não for nula, ele existe, então apenas mostrar
+            if (formularioExistente != null)
+            {
+                formularioExistente.Focus();
+            }
+            else
+            {
+                // Instanciar o novo formulário
+                CadastroPessoaForm cadastroFormulario = new CadastroPessoaForm();
+
+                // Exibir o novo formulário
+                cadastroFormulario.Show();
+            }
+        }
+
+        private void empresaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Verificar se o formulário ja está aberto
+            CadastroEmpresaForm formularioExistente = Application.OpenForms.OfType<CadastroEmpresaForm>().FirstOrDefault();
+
+            //Se a variável não for nula, ele existe, então apenas mostrar
+            if (formularioExistente != null)
+            {
+                formularioExistente.Focus();
+            }
+            else
+            {
+                // Instanciar o novo formulário
+                CadastroEmpresaForm cadastroFormulario = new CadastroEmpresaForm();
+
+                // Exibir o novo formulário
+                cadastroFormulario.Show();
+            }
+
         }
     }
 }
